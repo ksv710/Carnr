@@ -1,0 +1,87 @@
+.find-cars-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    background: url('../../images/listingbanner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.welcome-text {
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    margin-bottom: 2rem;
+}
+
+.welcome-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-text p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.fancy-button {
+    background-color: #324b5f;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fancy-button:hover {
+    background-color: #324b5f;
+}
+
+/* Box containing the map and search button */
+.find-cars-box {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px; 
+    width: 100%;
+    box-sizing: border-box; 
+    margin-top: 2rem; 
+}
+
+.find-cars-button {
+    background-color: #324b5f;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem; 
+}
+
+.map-style {
+    width: 200%;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .find-cars-box {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    .map-style {
+        width: 193%;
+        padding: 1rem;
+    }
+    
+}

@@ -1,0 +1,75 @@
+/* Container for the entire card */
+.card-container {
+  width: 280px;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Container for the image */
+.card-img-container {
+  width: 100%;
+  padding-top: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* The image itself */
+.card-img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 1rem; 
+}
+
+/* Container for the card content */
+.card-content {
+  padding: 10px; 
+  text-align: left; 
+  width: 100%; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+/* Title within the card content */
+.card-content .card-title {
+  margin: 10px 0 5px; 
+  color: #324b5f; 
+  font-size: 1.3rem; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-weight: normal; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+/* Description within the card content */
+.card-content .card-description {
+  margin: 0; 
+  color: #555; 
+  font-size: 1.0rem; 
+  overflow: hidden; 
+  display: -webkit-box; 
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical; 
+  text-overflow: ellipsis; 
+  word-break: break-word; 
+  hyphens: auto; 
+}
+
+/* Price within the card content */
+.card-price {
+  margin: 10px 0 0; 
+  font-size: 1.2rem; 
+  color: #324b5f; 
+  font-weight: bold; 
+}

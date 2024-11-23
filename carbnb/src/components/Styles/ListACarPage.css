@@ -1,0 +1,129 @@
+/* Global styles for HTML, body, and #root */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Welcome section styling */
+.welcome-section {
+  background-image: url('../../images/listingbanner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 89vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* Styling for the welcome text heading */
+.welcome-text h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  margin-bottom: 1rem;
+}
+
+/* Styling for the welcome text paragraph */
+.welcome-text p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Styling for buttons in the welcome section */
+.welcome-text .btn {
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+}
+
+/* General padding for the list car page */
+.list-car-page {
+  padding: 2rem;
+}
+
+/* Progress step container styling */
+.step-progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+/* Individual step styling */
+.step {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 2px solid lightgray;
+  transition: all 0.3s;
+}
+
+/* Styling for completed steps */
+.step.completed {
+  border-color: #324b5f;
+  font-weight: bold;
+}
+
+/* Container for step content */
+.step-content {
+  margin-bottom: 2rem;
+}
+
+/* Styling for step content headings */
+.step-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* General input and textarea styling */
+input[type="text"], input[type="file"], textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Specific height for textarea */
+textarea {
+  height: 100px;
+}
+
+/* Flexbox styling for input groups */
+.input-group {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: start; 
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Styling for input group text elements */
+.input-group-text {
+  background: #324b5f;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+/* Styling for input fields within input groups */
+.input-group input {
+  border-radius: 0 4px 4px 0;
+  width: 97%;
+  margin-bottom: 0%;
+}
+
+/* Navigation buttons container styling */
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+/* Styling for buttons within the navigation buttons container */
+.navigation-buttons .btn {
+  padding: 0.8rem 2rem;
+}

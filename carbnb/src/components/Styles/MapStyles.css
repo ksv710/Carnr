@@ -1,0 +1,43 @@
+/* Container for the autocomplete input and control */
+.autocomplete-container {
+  width: 300px;
+}
+
+/* Input field and control styling */
+.autocomplete-container input,
+.autocomplete-control {
+  box-sizing: border-box;
+}
+
+/* Additional styling for the autocomplete control */
+.autocomplete-control {
+  margin: 24px;
+  background: #fff;
+}
+
+/* Input field styling within the autocomplete container */
+.autocomplete-container input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  font-size: 18px;
+}
+
+/* Styling for the custom list within the autocomplete container */
+.autocomplete-container .custom-list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for each item in the custom list */
+.autocomplete-container .custom-list-item {
+  padding: 8px;
+}
+
+/* Hover effect for items in the custom list */
+.autocomplete-container .custom-list-item:hover {
+  background: lightgrey;
+  cursor: pointer;
+}

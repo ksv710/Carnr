@@ -1,0 +1,111 @@
+/* Container for the car details section with centered alignment and a maximum width */
+.car-detail-container {
+  margin: 20px auto; 
+  max-width: 900px; 
+  box-sizing: border-box; 
+}
+
+/* Section for the title of the car detail page */
+.title-section {
+  margin-bottom: 20px; 
+}
+
+/* Style for the car title text */
+.car-title {
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  color: #324b5f; 
+  text-align: left; 
+  padding-left: 4em; 
+  padding-right: 5em; 
+  overflow-wrap: break-word; 
+  hyphens: auto; 
+}
+
+/* Section for the car image, centered alignment */
+.image-section1 {
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+/* Style for the car photo */
+.car-photo1 {
+  border-radius: 2em;
+  width: 75%;
+  max-height: 400px;
+  object-fit: cover;
+  position: relative;
+}
+
+/* Hover effect for the car photo */
+.car-photo1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Flexbox layout for the content row, spacing items evenly */
+.content-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11em;
+  padding-right: 10em;
+}
+
+/* Sticky column for the price breakdown */
+.price-breakdown-col {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+/* Sections for car details, additional info, and price */
+.car-detail-section, .more-info-section, .car-price-section {
+  padding: 40px;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+  overflow: hidden; 
+  box-sizing: border-box;
+}
+
+/* Title for each section within the car details */
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #324b5f;
+  text-align: center;
+}
+
+/* Decorative line separating sections */
+.fancy-line {
+  border: 0;
+  height: 1px;
+  background: #8aa67f;
+  margin: 10px 0;
+}
+
+/* Text inside cards or sections */
+.card-text {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Information items with icons */
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Icons next to information items */
+.info-icon {
+  margin-right: 10px; 
+  color: #8aa67f;
+  font-size: 1.5rem;
+}

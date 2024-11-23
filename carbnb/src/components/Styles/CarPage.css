@@ -1,0 +1,44 @@
+/* Container for the entire page. Ensures full viewport height and a flexible layout. */
+.page {
+  padding: 20px; 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container for sorting options. Centers content horizontally and adds spacing below. */
+.sort-options {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+/* Styling for labels within the sorting options. Adds spacing and text styling. */
+.sort-options label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #324b5f;
+}
+
+/* Styling for sort buttons. Makes buttons look like text and adds interactive effects. */
+.sort-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #324b5f;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for sort buttons. Enlarges the button slightly. */
+.sort-btn:hover {
+  transform: scale(1.2); 
+}
+
+/* Container for cards. Uses Flexbox for layout and allows wrapping of cards. */
+.cards-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+}

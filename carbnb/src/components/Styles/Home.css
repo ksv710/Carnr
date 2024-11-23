@@ -1,0 +1,280 @@
+/* 
+  .home-page: Sets the position of the home page container to relative, allowing child elements with absolute positioning to be positioned relative to this container.
+*/
+.home-page {
+  position: relative;
+}
+
+/* 
+  .banner: Defines the style for the banner section with centered text and relative positioning to position the overlay and content properly.
+*/
+.banner {
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+/* 
+  .banner-overlay: Creates an overlay effect for the banner with a semi-transparent black background, covering the entire banner.
+*/
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* 
+  .banner-content: Ensures that the banner content is placed above the overlay with a higher z-index.
+*/
+.banner-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* 
+  .banner-title: Styles the main title in the banner with large font size and bold weight.
+*/
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 
+  .banner-text: Styles the text in the banner with a slightly smaller font size and margin.
+*/
+.banner-text {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+/* 
+  .banner .btn: Styles buttons within the banner, including font size, padding, and right margin.
+*/
+.banner .btn {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  margin-right: 15px;
+}
+
+/* 
+  .banner .btn:last-child: Removes the right margin for the last button in the banner.
+*/
+.banner .btn:last-child {
+  margin-right: 0;
+}
+
+/* 
+  .banner .btn:hover: Adds a scaling effect on hover for buttons in the banner.
+*/
+.banner .btn:hover {
+  transform: scale(1.05);
+}
+
+/* 
+  .fancy-button: Styles the fancy button with padding, font size, uppercase text, and a white background. Includes transition effects for background color and scaling on hover.
+*/
+.fancy-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff !important;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* 
+  .fancy-button:hover: Changes the background color and scales the button on hover.
+*/
+.fancy-button:hover {
+  background-color: #324b5f !important;
+  transform: scale(1.05);
+}
+
+/* 
+  .about-section, .services-section, .testimonials-section, .complaint-section, .contact-section: Applies padding to various sections to space out the content.
+*/
+.about-section, .services-section, .testimonials-section, .complaint-section, .contact-section {
+  padding: 50px 0;
+}
+
+/* 
+  .section-title1: Styles section titles with a large font size, bold weight, and centered text.
+*/
+.section-title1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* 
+  .contact_section-title: Styles contact section titles with similar properties as section-title1 but with white color.
+*/
+.contact_section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+/* 
+  .section-text: Styles section text with font size, line height, centered text, and margin.
+*/
+.section-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 
+  .services-section: Sets the background color for the services section.
+*/
+.services-section {
+  background-color: #f9f9f9;
+}
+
+/* 
+  .services-list: Arranges service items in a flexible row that wraps to the next line if needed.
+*/
+.services-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* 
+  .service-item: Styles individual service items with a white background, rounded corners, and shadow effects.
+  Includes a transform effect on hover to lift the item.
+*/
+.service-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 250px;
+}
+
+/* 
+  .service-item:hover: Applies a lifting effect and enhanced shadow on hover for service items.
+*/
+.service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 
+  .service-icon: Styles service icons with fixed width and height, and bottom margin.
+*/
+.service-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+/* 
+  .service-item h3: Styles the heading within service items with a medium font size and margin.
+*/
+.service-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* 
+  .service-item p: Styles the paragraph text within service items with font size and color.
+*/
+.service-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* 
+  .testimonials: Centers text in the testimonials section.
+*/
+.testimonials {
+  text-align: center;
+}
+
+/* 
+  .testimonial: Styles individual testimonials with italic font and margin.
+*/
+.testimonial {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* 
+  .complaint-form: Sets a maximum width for the complaint form and centers it horizontally.
+*/
+.complaint-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* 
+  .form-group: Styles form groups with bottom margin.
+*/
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* 
+  .form-group label: Styles labels within form groups with block display and bottom margin.
+*/
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* 
+  .form-control: Styles form controls with full width, padding, border, and border-radius.
+*/
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* 
+  .testimonials-section, .about-section: Sets the background color for the testimonials and about sections.
+*/
+.testimonials-section, .about-section {
+  background-color: #8aa67f;
+}
+
+/* 
+  .contact-section: Styles the contact section with a dark background color and white text.
+*/
+.contact-section{
+  background-color: #324b5f;
+  color: white;
+}
+
+/* 
+  .complaint-section, .services-section: Sets the background color for the complaint and services sections.
+*/
+.complaint-section, .services-section {
+  background-color: #e9ede6;
+}
+
+/* 
+  .contact-section .section-title, .contact-section .section-text: Centers text within the contact section.
+*/
+.contact-section .section-title,
+.contact-section .section-text {
+  text-align: center;
+}

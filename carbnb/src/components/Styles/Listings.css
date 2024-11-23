@@ -1,0 +1,91 @@
+/* Container for listing items, aligns them in a column and centers them */
+.Listings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+/* Styling for links inside listing items, removes default underline and inherits color */
+.listing-link {
+  text-decoration: none; 
+  color: inherit; 
+  width: 100%;
+}
+
+/* Wrapper for each listing item, includes border, padding, and background */
+.listing-item {
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 900px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Hover effect for listing items to change background and add shadow */
+.listing-item:hover {
+  background-color: #e6e6e6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling inside listing item, with flexible width and margin */
+.listing-image {
+  flex: 1;
+  max-width: 280px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+/* Container for listing details, centers content vertically */
+.listing-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+/* Styling for listing detail headings, including font size and color */
+.listing-details h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #324b5f;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Styling for listing detail paragraphs, including text truncation and font color */
+.listing-details p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;
+  overflow-wrap: break-word;
+  hyphens: auto; 
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.booked-tag {
+  display: inline-block;
+  background-color: #325f41; 
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 10px; 
+  width: 71px;
+}

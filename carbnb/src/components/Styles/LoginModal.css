@@ -1,0 +1,66 @@
+/* Button used for login with styling for background, text, and borders */
+.login-btn {
+  background-color: #324b5f;
+  color: #ffffff;
+  border-color: #001f3f;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Header section of the modal with background and text color */
+.modal-header {
+  background-color: #8aa67f;
+  color: white;
+}
+
+/* Main content area of the modal with rounded corners */
+.modal-content {
+  border-radius: 10px;
+}
+
+/* Title of the modal with increased font size */
+.modal-title {
+  font-size: 1.5rem;
+}
+
+/* Label in the form, styled with bold font and a specific color */
+.form-label {
+  font-weight: bold;
+  color: #324b5f;
+}
+
+/* Input fields in the form with border and rounded corners */
+.form-control {
+  border: 1px solid #8aa67f;
+  border-radius: 5px;
+}
+
+/* Button used for form submission with styling for background and text */
+.submit-btn {
+  background-color: #324b5f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Styling for error messages with color and margin */
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Link to sign-up page with centering and margin */
+.sign-up-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Link in sign-up section styled with color and underline */
+.sign-up-link a {
+  color: #324b5f;
+  text-decoration: underline;
+}
