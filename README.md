@@ -66,5 +66,6 @@ Follow these steps to set up the project locally:
   If you encounter errors, ensure you have the following installed:
    * react-scripts for frontend
    * Node.js version compatible with the project's dependencies
+---
 
 Enjoy exploring the CarBnB project! 🚗✨
