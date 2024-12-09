@@ -63,7 +63,7 @@ Follow these steps to set up the project locally:
    ```bash
    npm start
 
-   If you encounter errors, ensure you have the following installed:
+  If you encounter errors, ensure you have the following installed:
    * react-scripts for frontend
    * Node.js version compatible with the project's dependencies
 
